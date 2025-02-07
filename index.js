@@ -119,5 +119,9 @@ export default {
     window.removeEventListener('touchmove', onTouchMove);
     window.removeEventListener('touchend', onTouchEnd);
     window.removeEventListener('touchcancel', onTouchEnd);
+
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    }
   },
 };
