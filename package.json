@@ -1,0 +1,12 @@
+{
+  "name": "@ircam/funny-fullscreen",
+  "version": "1.0.0",
+  "description": "",
+  "license": "BSD-3-Clause",
+  "author": "Benjamin Matuszewski",
+  "type": "module",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}
